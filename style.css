@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Classes */
+.hero-section {
+  @apply bg-gray-900 text-white py-20 px-6 text-center;
+}
+.hero-container {
+  @apply max-w-3xl mx-auto;
+}
+.hero-title {
+  @apply text-4xl md:text-5xl font-bold mb-4;
+}
+.hero-tagline {
+  @apply text-xl mb-6;
+}
+.hero-headline {
+  @apply text-lg italic mb-6;
+}
+.cta-button {
+  @apply bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition;
+}
+
+.section-container {
+  @apply max-w-4xl mx-auto text-center;
+}
+.section-title {
+  @apply text-3xl font-bold mb-4;
+}
+.section-paragraph {
+  @apply mb-6;
+}
+
+.social-links {
+  @apply flex justify-center space-x-6 mt-6 text-gray-600 hover:text-gray-800;
+}
+.contact-email {
+  @apply text-blue-600 font-semibold hover:underline;
+}
+.contact-form div {
+  @apply mb-4;
+}
+.contact-form label {
+  @apply block mb-2 font-semibold;
+}
+.contact-form input,
+.contact-form textarea {
+  @apply w-full px-4 py-2 border border-gray-300 rounded-lg;
+}
+.contact-form button {
+  @apply bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition;
+}
+
+.extras-block {
+  @apply mb-8;
+}
+.extras-title {
+  @apply text-2xl font-semibold mb-2;
+}
+.extras-quote {
+  @apply italic;
+}
+.resume-link,
+.blog-link {
+  @apply text-blue-600 hover:underline;
+}
